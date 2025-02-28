@@ -1,6 +1,7 @@
  import dotenv from "dotenv";
  import { paymentController } from '../controllers/Payment.controller.js'
  import { authenticate } from '../middleware/authenticate.js'
+ import express from "express";
 
  const PaymentRoute = express.Router();
  
